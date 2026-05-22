@@ -18,9 +18,9 @@ Modern applications are commonly built using a **3-Tier Architecture** to improv
 
 ##  Architecture
 
-```
-User → Nginx Web Tier → PHP App Tier → MySQL Database Tier
-```
+
+<img width="1100" height="733" alt="image" src="https://github.com/user-attachments/assets/db031488-ebb6-4d5c-8ad3-cabd78a8aae4" />
+
 
 ---
 
