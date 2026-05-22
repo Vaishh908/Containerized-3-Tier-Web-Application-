@@ -1,10 +1,10 @@
-# 🐳 Containerized 3-Tier Web App with Docker Compose
+#  Containerized 3-Tier Web App with Docker Compose
 
 A simple **3-Tier Web Application** deployed using **Docker Compose**, demonstrating how frontend, backend, and database services communicate within a containerized environment.
 
 ---
 
-## 📖 Overview
+## Overview
 
 Modern applications are commonly built using a **3-Tier Architecture** to improve scalability, security, and maintainability. This project deploys:
 
@@ -16,7 +16,7 @@ Modern applications are commonly built using a **3-Tier Architecture** to improv
 
 ---
 
-## 🏗️ Architecture
+##  Architecture
 
 ```
 User → Nginx Web Tier → PHP App Tier → MySQL Database Tier
@@ -24,7 +24,7 @@ User → Nginx Web Tier → PHP App Tier → MySQL Database Tier
 
 ---
 
-## 📂 Project Structure
+##  Project Structure
 
 ```
 three-tier/
@@ -50,17 +50,17 @@ three-tier/
 
 ## ⚙️ Technologies Used
 
-- 🐳 **Docker** — Containerization platform
-- 📦 **Docker Compose** — Multi-container management
-- 🌐 **Nginx** — Web server for the frontend
-- 🐘 **PHP** — Backend scripting language
-- 🗄️ **MySQL** — Relational database
-- 🧾 **HTML** — Frontend signup form
-- 🔗 **Docker Network** — Inter-container communication
+-  **Docker** — Containerization platform
+-  **Docker Compose** — Multi-container management
+   **Nginx** — Web server for the frontend
+-  **PHP** — Backend scripting language
+-  **MySQL** — Relational database
+-  **HTML** — Frontend signup form
+-  **Docker Network** — Inter-container communication
 
 ---
 
-## 🚀 Getting Started
+## Getting Started
 
 ### Prerequisites
 
@@ -92,7 +92,7 @@ three-tier/
 
 ---
 
-## 🧪 Testing the Application
+##  Testing the Application
 
 1. Open `http://localhost` in your browser
 2. Fill in the **Name** and **Email** fields
@@ -116,7 +116,7 @@ SELECT * FROM users;
 
 ---
 
-## 🛑 Stopping the Application
+## Stopping the Application
 
 ```bash
 docker-compose down
@@ -129,17 +129,17 @@ docker-compose down -v
 
 ---
 
-## ✅ Key Features
+##  Key Features
 
-- ✔️ Multi-container deployment with Docker Compose
-- ✔️ Clean 3-tier architecture separation
-- ✔️ Automated database and table initialization
-- ✔️ Container networking for secure inter-service communication
-- ✔️ Scalable and extensible architecture
+-  Multi-container deployment with Docker Compose
+-  Clean 3-tier architecture separation
+-  Automated database and table initialization
+-  Container networking for secure inter-service communication
+-  Scalable and extensible architecture
 
 ---
 
-## 📌 Use Cases
+## Use Cases
 
 This architecture pattern is widely used in:
 - Enterprise web applications
@@ -148,13 +148,9 @@ This architecture pattern is widely used in:
 - DevOps CI/CD workflows
 
 ---
+## summary
 
-## 🤝 Contributing
+A simple 3-Tier Web Application deployed using Docker Compose, where the frontend, backend, and database run in separate containers and communicate seamlessly within a containerized 
+environment. This project demonstrates multi-container architecture, service networking, and scalable deployment using Docker.
 
-Pull requests are welcome! For major changes, please open an issue first to discuss what you'd like to change.
 
----
-
-## 📄 License
-
-This project is open-source and available under the [MIT License](LICENSE).
