@@ -48,7 +48,7 @@ three-tier/
 
 ---
 
-## ⚙️ Technologies Used
+##  Technologies Used
 
 -  **Docker** — Containerization platform
 -  **Docker Compose** — Multi-container management
